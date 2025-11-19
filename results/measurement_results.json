@@ -1,0 +1,34 @@
+{
+  "Hash Table": {
+    "duration_ms": 10019,
+    "total_operations": 492,
+    "ops_per_second": 49.1067,
+    "op1_count": 27,
+    "op2_count": 3,
+    "op3_count": 462
+  },
+  "Vector": {
+    "duration_ms": 10155,
+    "total_operations": 15,
+    "ops_per_second": 1.4771,
+    "op1_count": 1,
+    "op2_count": 0,
+    "op3_count": 14
+  },
+  "AVL Tree": {
+    "duration_ms": 10745,
+    "total_operations": 17,
+    "ops_per_second": 1.58213,
+    "op1_count": 1,
+    "op2_count": 0,
+    "op3_count": 16
+  },
+  "Optimized": {
+    "duration_ms": 10000,
+    "total_operations": 29409782,
+    "ops_per_second": 2940980.0,
+    "op1_count": 1387900,
+    "op2_count": 277488,
+    "op3_count": 27744394
+  }
+}

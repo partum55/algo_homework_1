@@ -1,0 +1,51 @@
+======================================================================
+PERFORMANCE ANALYSIS REPORT
+Generated: 2025-11-19 17:51:50
+======================================================================
+
+SUMMARY
+----------------------------------------------------------------------
+Best Implementation: Optimized
+  Operations/second: 2,940,980.00
+
+Worst Implementation: Vector
+  Operations/second: 1.48
+
+Speedup: 1991050.03x
+
+DETAILED RESULTS
+----------------------------------------------------------------------
+
+Optimized:
+  Operations per second: 2,940,980.00
+  Total operations: 29,409,782
+  Duration: 10,000 ms
+  Operation 1 count: 1,387,900
+  Operation 2 count: 277,488
+  Operation 3 count: 27,744,394
+
+Hash Table:
+  Operations per second: 49.11
+  Total operations: 492
+  Duration: 10,019 ms
+  Operation 1 count: 27
+  Operation 2 count: 3
+  Operation 3 count: 462
+
+AVL Tree:
+  Operations per second: 1.58
+  Total operations: 17
+  Duration: 10,745 ms
+  Operation 1 count: 1
+  Operation 2 count: 0
+  Operation 3 count: 16
+
+Vector:
+  Operations per second: 1.48
+  Total operations: 15
+  Duration: 10,155 ms
+  Operation 1 count: 1
+  Operation 2 count: 0
+  Operation 3 count: 14
+
+======================================================================
